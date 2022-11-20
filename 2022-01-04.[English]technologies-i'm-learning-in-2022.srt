@@ -7,11 +7,11 @@ Last year I made a video called technologies I'm learning in 2021.
 I want to review the technologies I said I learned.
 
 3
-00:00:07,141 --> 00:00:12,569
+00:00:07,143 --> 00:00:12,014
 And see how I actually did and then tell you guys what I'm planning on learning in 2022.
 
 4
-00:00:12,769 --> 00:00:15,444
+00:00:12,015 --> 00:00:15,443
 Relay, the GraphQL client that is made by Facebook.
 
 5
@@ -39,132 +39,132 @@ Should I give Relay a try? Yes.
 Will it happen this year? To be honest, probably not but maybe,  possibly.
 
 11
-00:00:40,960 --> 00:00:47,840
-I did indeed try OVH I bought a VPS from them and it was great. But unfortunately, I bought it right when they had a fire.
+00:00:40,960 --> 00:00:44,542
+I did indeed try OVH I bought a VPS from them and it was great.
 
 12
+00:00:44,742 --> 00:00:47,840
+But unfortunately, I bought it right when they had a fire.
+
+13
 00:00:47,840 --> 00:00:53,174
 And it went down and I was like, well snap, that's not good and I switched to Google Cloud.
 
-13
+14
 00:00:53,374 --> 00:00:56,301
 Oh Elixir, I had a lot of fun with you in 2021.
 
-14
+15
 00:00:56,501 --> 00:01:00,925
 I built an entire clubhouse clone backend using it.
 
-15
+16
 00:01:01,125 --> 00:01:06,174
 It worked wonderfully like 95 of the time and I loved the language.
 
-16
+17
 00:01:06,374 --> 00:01:12,341
 But I also died inside having to code with a dynamically typed language and that is the reason
 
-17
-00:01:12,541 --> 00:01:14,880
+18
+00:01:12,342 --> 00:01:14,880
 why I am not coding an Elixir currently.
 
-18
+19
 00:01:14,880 --> 00:01:20,901
 I still really like it I'll probably do some Elixir microservice things because,  like real time, decentralized,
 
-19
+20
 00:01:21,101 --> 00:01:26,479
 that's not the right word, concurrent, something where you have lots of processes happening at once, Elixir is great at.
 
-20
+21
 00:01:26,479 --> 00:01:28,953
 I really liked it and would happily do more of it.
 
-21
+22
 00:01:29,153 --> 00:01:30,240
 Rust never really happened.
 
-22
+23
 00:01:30,240 --> 00:01:32,885
 I was gonna do some smart contract stuff with Solana.
 
-23
+24
 00:01:33,085 --> 00:01:38,560
 And I did dabble my two a little bit in but then I lost interest in Solana smart contracts and I was like
 
-24
+25
 00:01:38,560 --> 00:01:43,342
 yeah I don't really feel like learning Rust anymore. I'll probably get to Rust eventually, but here's the thing
 
-25
+26
 00:01:43,542 --> 00:01:47,953
 I just really don't have a good use case to learn it right now but when I have one then I'm gonna learn Rust.
 
-26
+27
 00:01:48,153 --> 00:01:49,491
 But it's just not there yet.
 
-27
+28
 00:01:49,691 --> 00:01:52,960
 Cloudflare is great I stick in front of everything that's pretty much it.
 
-28
-00:01:53,160 --> 00:01:58,941
-Rest apis were created by me in 2021 but what I ended up doing was just trying to recreate my experience in GraphQL
-
 29
+00:01:53,160 --> 00:01:55,020
+Rest apis were created by me in 2021.
+
+30
+00:01:55,220 --> 00:01:59,140
+But what I ended up doing was just trying to recreate my experience in GraphQL
+
+31
 00:01:59,141 --> 00:02:02,199
 and generate types and do all that fun stuff and I realized that was dumb.
 
-30
+32
 00:02:02,399 --> 00:02:04,622
 And so I just switched back to doing GraphQL apis.
 
-31
-00:02:04,822 --> 00:02:07,280
-I never created a component library just not really
-
-32
-00:02:07,280 --> 00:02:09,608
-feeling it I tried really hard to do a hardware project and
-
 33
+00:02:04,822 --> 00:02:07,737
+I never created a component library just not really feeling it.
+
+34
+00:02:07,738 --> 00:02:09,608
+I tried really hard to do a hardware project and
+
+35
 00:02:09,808 --> 00:02:12,400
 I thought of a really cool idea and I tried in my brain
 
-34
+36
 00:02:12,400 --> 00:02:14,720
 to figure out what I would actually do
 
-35
-00:02:14,720 --> 00:02:16,959
-to make this happen and I could figure
-
-36
-00:02:16,959 --> 00:02:19,200
-out the sequence of logic but then
-
 37
-00:02:19,200 --> 00:02:20,959
-mapping that to the actual hardware
+00:02:14,720 --> 00:02:18,702
+to make this happen and I could figure out the sequence of logic
 
 38
+00:02:18,703 --> 00:02:20,959
+but then mapping that to the actual hardware
+
+39
 00:02:20,959 --> 00:02:23,557
 parts I'd have to buy and wiring it all up
 
-39
+40
 00:02:23,757 --> 00:02:25,599
 was just something I could not be
 
-40
+41
 00:02:25,599 --> 00:02:27,920
 bothered to do there's just not as many
 
-41
-00:02:27,920 --> 00:02:29,760
-resources on hardware as there is the
-
 42
-00:02:29,760 --> 00:02:32,720
-software and it's like the cost of like
+00:02:27,920 --> 00:02:32,720
+resources on hardware as there is the software and it's like the cost of like
 
 43
 00:02:32,720 --> 00:02:34,879
@@ -175,318 +175,302 @@ trial and error is way more expensive
 not even from a monetary point of view
 
 45
-00:02:36,640 --> 00:02:38,560
-but your time of like waiting for parts
+00:02:36,640 --> 00:02:39,425
+but your time of like waiting for parts to arrive
 
 46
-00:02:38,560 --> 00:02:40,959
-to arrive trialing to see if the part
+00:02:39,426 --> 00:02:42,720
+trialing to see if the part works and if it didn't
 
 47
-00:02:40,959 --> 00:02:42,720
-works and if it didn't
-
-48
 00:02:42,720 --> 00:02:45,800
 and ugh it just yeah it just never happened.
 
-49
+48
 00:02:45,999 --> 00:02:48,879
 I do want to give it more tries in 2022 because
 
-50
+49
 00:02:48,879 --> 00:02:52,183
 there's still like a really cool thing I want to build
 
-51
-00:02:52,383 --> 00:02:55,040
+50
+00:02:52,184 --> 00:02:55,040
 I just need to have the willpower to want to try making
 
-52
+51
 00:02:55,040 --> 00:02:57,360
 it again which I lost.
 
-53
+52
 00:02:57,360 --> 00:02:58,319
 Now I want to talk about some
 
-54
+53
 00:02:58,319 --> 00:03:00,879
 technologies that I used a lot in 2021
 
-55
+54
 00:03:00,879 --> 00:03:03,040
 I mentioned Chakra in my last video and
 
+55
+00:03:03,040 --> 00:03:05,596
+how I like to use it to style React components
+
 56
-00:03:03,040 --> 00:03:04,720
-how I like to use it to style React
+00:03:05,597 --> 00:03:07,040
+I'm not using that anymore
 
 57
-00:03:04,720 --> 00:03:07,040
-components I'm not using that anymore
+00:03:07,040 --> 00:03:10,481
+Tailwind is my go-to thing for styling absolutely everything.
 
 58
-00:03:07,040 --> 00:03:09,280
-Tailwind is my go-to thing for styling
+00:03:10,482 --> 00:03:13,840
+It is amazing for productivity and I highly recommend it.
 
 59
-00:03:09,280 --> 00:03:11,440
-absolutely everything it is amazing for
+00:03:13,840 --> 00:03:16,878
+For GraphQL clients I am fully on the Urql train right now.
 
 60
-00:03:11,440 --> 00:03:13,840
-productivity and I highly recommend it.
+00:03:16,879 --> 00:03:19,078
+I don't really need the extra features that Apollo has
 
 61
-00:03:13,840 --> 00:03:15,760
-For GraphQL clients I am fully on the
-
-62
-00:03:15,760 --> 00:03:17,599
-Urql train right now I don't really
-
-63
-00:03:17,599 --> 00:03:19,280
-need the extra features that Apollo has
-
-64
 00:03:19,280 --> 00:03:21,599
 and I feel like it's just getting a little clunky.
 
-65
+62
 00:03:21,599 --> 00:03:23,873
 Front frameworks still on React still like it
 
-66
-00:03:24,073 --> 00:03:26,799
+63
+00:03:23,874 --> 00:03:26,799
 and that's pretty much what I'm using for everything.
 
-67
+64
 00:03:26,799 --> 00:03:28,720
 TypeScript's my go-to language for just
 
-68
+65
 00:03:28,720 --> 00:03:30,640
 full stack I like using it with node
 
-69
+66
 00:03:30,640 --> 00:03:32,731
 I like using it on the front end it's great
 
-70
-00:03:32,931 --> 00:03:36,253
+67
+00:03:32,732 --> 00:03:36,253
 I really like the language it's statically typed which is big for me
 
-71
-00:03:36,390 --> 00:03:38,159
-and I'm using it more than Elixir because of
+68
+00:03:36,254 --> 00:03:38,865
+and I'm using it more than Elixir because of that,
 
-72
-00:03:38,159 --> 00:03:40,400
-that though I still see myself using
+69
+00:03:38,866 --> 00:03:42,640
+though I still see myself using some Elixir for certain things.
 
-73
-00:03:40,400 --> 00:03:42,640
-some Elixir for certain things.
-
-74
+70
 00:03:42,640 --> 00:03:47,599
 Database PostgreSQL pretty standard fantastic use it for everything
 
-75
+71
 00:03:47,599 --> 00:03:50,480
 I started using Prisma 2 with PostgreSQL
 
-76
+72
 00:03:50,480 --> 00:03:54,185
 I still don't like that it does like way too many queries
 
-77
-00:03:54,385 --> 00:03:56,664
+73
+00:03:54,186 --> 00:03:56,664
 if I tilt to update and return fields
 
-78
-00:03:56,864 --> 00:03:58,080
+74
+00:03:56,665 --> 00:03:58,080
 it's not very optimized
 
-79
+75
 00:03:58,080 --> 00:04:02,004
 but other than that the UX experience for development is very good
 
-80
+76
 00:04:02,204 --> 00:04:04,560
 I really like it. React Native is what I'm using
 
-81
+77
 00:04:04,560 --> 00:04:06,239
 to build all apps not going back to
 
-82
+78
 00:04:06,239 --> 00:04:08,400
 native development and not using Flutter.
 
-83
+79
 00:04:08,400 --> 00:04:11,285
 VSCode with Vim key bindings is the editor I'm using.
 
-84
+80
 00:04:11,485 --> 00:04:15,238
 I did see Jetbrains create like a VSCode-like editor
 
-85
+81
 00:04:15,438 --> 00:04:18,091
 and I might try that at some point but to be honest
 
-86
-00:04:18,291 --> 00:04:20,487
+82
+00:04:18,092 --> 00:04:20,487
 I have zero complaints VSCode right now.
 
-87
+83
 00:04:20,687 --> 00:04:22,569
 Aws has become the cloud that I use most
 
-88
-00:04:22,769 --> 00:04:24,816
+84
+00:04:22,570 --> 00:04:24,816
 but there's not really good reason behind that.
 
-89
+85
 00:04:25,016 --> 00:04:27,684
 And lastly, this is not really something I used a lot in 2021
 
-90
-00:04:27,884 --> 00:04:32,091
+86
+00:04:27,886 --> 00:04:32,086
 but I did learn how to do smart contracts with solidity
 
-91
-00:04:32,291 --> 00:04:34,904
-and it's kind of gross because it just reminds me a lot of Java
+87
+00:04:32,092 --> 00:04:36,432
+and it's kind of gross because it just reminds me a lot of Java but it is a thing I did.
 
-92
-00:04:35,104 --> 00:04:37,609
-but it is a thing I did. For 2022, the first thing
+88
+00:04:36,433 --> 00:04:40,005
+For 2022, the first thing I'd like to do is learn more animation things.
 
-93
-00:04:37,749 --> 00:04:40,005
-I'd like to do is learn more animation things.
-
-94
+89
 00:04:40,205 --> 00:04:43,521
 If you've seen my previous projects you may see the lack of animations
 
-95
+90
 00:04:43,721 --> 00:04:46,489
 that's because I just never was really comfortable with them
 
-96
+91
 00:04:46,689 --> 00:04:49,052
 and I didn't know how to animate or what I wanted to animate
 
-97
+92
 00:04:49,252 --> 00:04:52,000
 but now when I'm doing a voidpet, I kind of like sticking
 
-98
+93
 00:04:52,000 --> 00:04:56,410
 animations in places and so I'm going to do more stuff related to animations.
 
-99
-00:04:56,610 --> 00:04:59,279
+94
+00:04:56,411 --> 00:04:59,279
 Next this is a possibility it's not like confirmed
 
-100
-00:04:59,479 --> 00:05:00,935
+95
+00:04:59,280 --> 00:05:00,935
 it's not a hundred percent
 
-101
-00:05:01,135 --> 00:05:03,120
+96
+00:05:00,936 --> 00:05:03,120
 but I might do some Unity / 3d game dev.
 
-102
+97
 00:05:03,120 --> 00:05:05,840
 It may not actually be with unity,
 
-103
+98
 00:05:05,840 --> 00:05:08,830
 because I'm kind of enjoying building a game right now.
 
-104
-00:05:09,030 --> 00:05:13,520
+99
+00:05:08,831 --> 00:05:13,520
 Voidpet is specifically going to be a web game for a while, so it may not need this.
 
-105
+100
 00:05:13,520 --> 00:05:15,680
 But there may be a point where I want to.
 
-106
+101
 00:05:15,680 --> 00:05:19,120
 Now for some reason I'm kind of in the mood to learn Terraform and Kubernetes.
 
-107
+102
 00:05:19,120 --> 00:05:21,520
 And do like some fancy DevOps things.
 
-108
+103
 00:05:21,520 --> 00:05:26,880
 I don't really have a good reason for you on this one other than I just kind of been in the mood for whatever reason.
 
-109
+104
 00:05:26,880 --> 00:05:29,894
 Turborepo is something I think is going to be really easy to learn.
 
-110
-00:05:30,094 --> 00:05:33,759
+105
+00:05:29,895 --> 00:05:33,759
 And it's just going to speed up my Yarn workspaces and
 
-111
-00:05:33,759 --> 00:05:39,139
+106
+00:05:33,759 --> 00:05:38,729
 I just need to learn it and plug it into my things it probably is going to take like 10 minutes too.
 
-112
-00:05:39,339 --> 00:05:42,633
+107
+00:05:38,730 --> 00:05:42,633
 Remix is a React framework that is kind of a competitor to Next.js
 
-113
-00:05:42,833 --> 00:05:49,365
-I'm going to be watching this and probably trying it out sometime this year. I'm excited to see Next.js actually have a competitor
+108
+00:05:42,634 --> 00:05:46,600
+I'm going to be watching this and probably trying it out sometime this year.
 
-114
+109
+00:05:46,601 --> 00:05:49,365
+I'm excited to see Next.js actually have a competitor
+
+110
 00:05:49,565 --> 00:05:52,240
 because they really are competing against no one right now
 
-115
+111
 00:05:52,240 --> 00:05:55,759
 so that's just gonna make the web dev environment better for everyone.
 
-116
+112
 00:05:55,759 --> 00:05:59,449
-Lastly we got smart contracts, this is a very big maybe
+Lastly we got smart contracts, this is a very big maybe.
 
-117
-00:05:59,649 --> 00:06:01,840
+113
+00:05:59,450 --> 00:06:01,840
 I don't actually know if this is gonna happen
 
-118
+114
 00:06:01,840 --> 00:06:07,840
 I just can't see myself not dabbling in them somewhere, but it may not be a deep thing.
 
-119
+115
 00:06:07,840 --> 00:06:12,931
 Every time I've done smart contracts, I've kind of lost interest halfway through.
 
-120
-00:06:13,131 --> 00:06:15,199
+116
+00:06:12,932 --> 00:06:15,199
 But it may happen, who knows?
 
-121
+117
 00:06:15,199 --> 00:06:17,440
 There you go, those are my plans for 2022.
 
-122
-00:06:17,440 --> 00:06:20,049
+118
+00:06:17,440 --> 00:06:20,342
 Let me know in the comments below what you're planning on learning.
 
-123
-00:06:20,249 --> 00:06:25,960
+119
+00:06:20,343 --> 00:06:23,343
 Or if you have any recommendations for me I'm always happy to hear them.
 
