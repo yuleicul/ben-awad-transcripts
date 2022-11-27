@@ -1,0 +1,509 @@
+﻿1
+00:00:00,160 --> 00:00:04,480
+My hair currently looks like the average
+codebase that uses Redux.
+
+2
+00:00:04,480 --> 00:00:09,280
+And if I had a dollar for every time
+someone asked me if they should learn Redux,
+
+3
+00:00:09,280 --> 00:00:13,200
+then I'd actually have enough money to
+hire a decent developer to fix it.
+
+4
+00:00:13,200 --> 00:00:17,099
+This is a cause that's very near and dear
+to my heart so I decided to make my
+
+5
+00:00:17,100 --> 00:00:22,085
+dreams a reality and code it up
+shouldilearnredux.netlify.app
+
+6
+00:00:22,086 --> 00:00:25,328
+How it works is you can pay
+one dollar to unlock the answer
+
+7
+00:00:25,329 --> 00:00:28,071
+of whether you should be learning Redux.
+
+8
+00:00:28,072 --> 00:00:32,343
+Underneath the hood, when you click the button
+it will run a series of deep neural nets
+
+9
+00:00:32,344 --> 00:00:36,386
+that pipe into a machine learning model
+which will then cross-reference against
+
+10
+00:00:36,387 --> 00:00:40,288
+some if-statements to analyze your
+browser history and determine
+
+11
+00:00:40,289 --> 00:00:42,400
+whether you should be learning Redux.
+
+12
+00:00:42,400 --> 00:00:45,627
+This takes a little while to run for the
+first time you click on the button
+
+13
+00:00:45,629 --> 00:00:48,771
+but it will cache the results after that for
+subsequent presses
+
+14
+00:00:48,774 --> 00:00:53,680
+so I already paid myself a dollar and
+I can show you guys the cache results for myself.
+
+15
+00:00:53,680 --> 00:00:58,720
+I got a big fat no and that's pretty
+much the main reason why I don't use Redux.
+
+16
+00:00:58,720 --> 00:01:01,600
+Now the thing about machine learning is
+it's not always right so what I want to
+
+17
+00:01:01,600 --> 00:01:04,480
+do in this video is discuss how I would
+use Redux,
+
+18
+00:01:04,480 --> 00:01:09,120
+Recoil, Context and just how I view state
+management in React in general.
+
+19
+00:01:09,120 --> 00:01:12,880
+In the average React app there's usually
+three types of state.
+
+20
+00:01:12,880 --> 00:01:15,920
+And the most common one has to do with
+just fetching data
+
+21
+00:01:15,920 --> 00:01:20,262
+and storing it from an API. And commonly
+Redux is used for that.
+
+22
+00:01:20,263 --> 00:01:24,800
+Redux is just a general state management library
+so everyone implements this differently.
+
+23
+00:01:24,800 --> 00:01:28,160
+But here's an example that is simple to
+just give you an idea.
+
+24
+00:01:28,160 --> 00:01:31,840
+So we have a use effect hook which will
+run after the first
+
+25
+00:01:31,840 --> 00:01:36,320
+render and just dispatch an action to
+load some data from the API.
+
+26
+00:01:36,320 --> 00:01:39,045
+And then once that is loaded in,
+it'll be stored in Redux
+
+27
+00:01:39,046 --> 00:01:40,670
+and just passed to this component.
+
+28
+00:01:40,671 --> 00:01:43,399
+Using Redux for this type of state
+reminds me a lot of
+
+29
+00:01:43,599 --> 00:01:45,862
+making your own marinara sauce
+from scratch.
+
+30
+00:01:46,062 --> 00:01:50,030
+If you're willing to put in the time and
+the effort and you're actually good at cooking
+
+31
+00:01:50,031 --> 00:01:53,177
+then the end results can actually
+be pretty good.
+
+32
+00:01:53,178 --> 00:01:56,729
+But if you're just okay at cooking or maybe
+you're just surrounded with
+
+33
+00:01:56,730 --> 00:02:00,540
+a bunch of crappy sous chefs that
+have terrible taste buds
+
+34
+00:02:00,541 --> 00:02:03,471
+make it too salty then you're just
+going to be kind of left with
+
+35
+00:02:03,472 --> 00:02:07,496
+a bowl of spaghetti code and some
+nasty marinara sauce on top.
+
+36
+00:02:07,497 --> 00:02:09,600
+Now don't worry
+I'm not about to suggest you
+
+37
+00:02:09,600 --> 00:02:12,000
+go out and get yourself a jar of
+marinara sauce.
+
+38
+00:02:12,001 --> 00:02:14,265
+I would never do that.
+That stuff is crap.
+
+39
+00:02:14,266 --> 00:02:17,750
+But I am going to recommend you
+head over to your grandma's house
+
+40
+00:02:17,751 --> 00:02:21,681
+who's got a giant pot of marinara sauce
+that she made all from scratch.
+
+41
+00:02:21,682 --> 00:02:24,125
+That is just sitting there waiting for you.
+
+42
+00:02:24,126 --> 00:02:27,440
+She goes by a lot of names
+depending on the type of API you have.
+
+43
+00:02:27,440 --> 00:02:31,440
+If you like GraphQL, some call her
+Apollo or Relay.
+
+44
+00:02:31,440 --> 00:02:35,440
+If you like Rest she's known as
+React Query or SWR.
+
+45
+00:02:35,440 --> 00:02:38,960
+But no matter what you call her, at the
+end of the day you're going to get a
+
+46
+00:02:38,960 --> 00:02:42,800
+great tasting marinara sauce that is
+specifically designed
+
+47
+00:02:42,800 --> 00:02:45,530
+for fetching and caching data from an API.
+
+48
+00:02:45,531 --> 00:02:49,556
+And your grandma made the entire thing
+with fresh ingredients.
+
+49
+00:02:49,557 --> 00:02:52,942
+I'm sure there's some applications that
+need like a custom setup,
+
+50
+00:02:52,943 --> 00:02:54,560
+but just for the average React App,
+
+51
+00:02:54,560 --> 00:02:58,800
+using a data fetching library that is
+specifically designed for this type of state,
+
+52
+00:02:58,800 --> 00:03:02,480
+compared to a general state management
+library, is going to save you
+
+53
+00:03:02,480 --> 00:03:05,580
+a lot of time and effort, and is what I
+would recommend using.
+
+54
+00:03:05,780 --> 00:03:08,960
+The second type of state is what I call
+local state and it's pretty much any
+
+55
+00:03:08,960 --> 00:03:11,386
+client-side state that just one component
+
+56
+00:03:11,387 --> 00:03:13,571
+or a few nearby components need access to.
+
+57
+00:03:13,771 --> 00:03:16,400
+For example you could
+have a checkbox that you can take
+
+58
+00:03:16,400 --> 00:03:19,920
+on and off to hide and show something
+in your UI.
+
+59
+00:03:19,920 --> 00:03:23,840
+And for this, I like to handle it with
+just the built-in useState hook.
+
+60
+00:03:23,840 --> 00:03:27,680
+And then of course if things get more
+complex or you have some more complex state,
+
+61
+00:03:27,680 --> 00:03:29,297
+there's also the useReducer hook.
+
+62
+00:03:29,298 --> 00:03:33,295
+And of course as the component evolves
+and just your requirements change,
+
+63
+00:03:33,296 --> 00:03:35,793
+more components might need
+access to that state.
+
+64
+00:03:35,993 --> 00:03:39,360
+And so you just lift it up to the highest level
+and if the components that need the
+
+65
+00:03:39,360 --> 00:03:42,560
+state are just nearby you just pass it
+down as props.
+
+66
+00:03:42,560 --> 00:03:46,400
+Otherwise it's not really local state
+anymore and it goes into like the next
+
+67
+00:03:46,400 --> 00:03:49,350
+category which I can consider
+"global" state.
+
+68
+00:03:49,550 --> 00:03:53,171
+I put global in parentheses because
+it's not necessarily that this state
+
+69
+00:03:53,172 --> 00:03:57,600
+is used across like your entire application.
+It just can be any state that you don't
+
+70
+00:03:57,600 --> 00:04:02,042
+feel like passing props all the way down to
+or it just gets annoying to do that.
+
+71
+00:04:02,043 --> 00:04:04,880
+For example, you might have a
+sidebar that sometimes you
+
+72
+00:04:04,880 --> 00:04:08,800
+want to hide, but sometimes you want to show,
+and maybe the way that happens is
+
+73
+00:04:08,800 --> 00:04:12,480
+there's like a button in the header and
+you press that. And so you want to be able to
+
+74
+00:04:12,480 --> 00:04:17,200
+control the sidebar from the header over
+here. But then they're way far apart and
+
+75
+00:04:17,200 --> 00:04:20,560
+they're very far in the component tree.
+For situations like this, I either like
+
+76
+00:04:20,560 --> 00:04:23,753
+to use React Context or just
+whatever state management library
+
+77
+00:04:23,754 --> 00:04:27,200
+I'm liking best at the moment.
+Currently, that happens to be Zustand
+
+78
+00:04:27,200 --> 00:04:30,323
+because I don't have to wrap my entire
+React App in providers
+
+79
+00:04:30,523 --> 00:04:33,600
+which is kind of nice. But
+honestly, there's a lot of good options
+
+80
+00:04:33,600 --> 00:04:36,720
+and just really comes down to whichever
+state management library you like better.
+
+81
+00:04:36,720 --> 00:04:40,000
+And with this approach you're not going
+to be handling a lot of state at all
+
+82
+00:04:40,000 --> 00:04:44,000
+with a state management library or React
+Context. It's just going to be like a little
+
+83
+00:04:44,000 --> 00:04:48,499
+sprinkle on top. And then the majority of
+your state is going to be handled by useState
+
+84
+00:04:48,500 --> 00:04:52,000
+in a data fetching library.
+Now some of you may have noticed I have
+
+85
+00:04:52,000 --> 00:04:56,880
+yet to mention Recoil, and that is for
+very good reason. I don't think recoil is
+
+86
+00:04:56,880 --> 00:05:00,480
+very necessary in the average React
+application. I watched the video
+
+87
+00:05:00,480 --> 00:05:06,080
+introducing recoil and I thought to myself
+hmm that is a really cool library. But
+
+88
+00:05:06,080 --> 00:05:10,480
+that is also a library specifically
+designed for a Facebook problem. If I end
+
+89
+00:05:10,480 --> 00:05:14,720
+up having a problem like that
+then yeah I'll give it a try. But until
+
+90
+00:05:14,720 --> 00:05:18,080
+then I just kind of put it on the back
+burner. To circle back to the earlier
+
+91
+00:05:18,080 --> 00:05:21,680
+question of whether you should learn Redux,
+I think if you can control the
+
+92
+00:05:21,680 --> 00:05:25,600
+technologies you are using on a project.
+Then there are better options and
+
+93
+00:05:25,600 --> 00:05:29,657
+I wouldn't learn Redux.
+But you just don't always have that luxury.
+
+94
+00:05:29,658 --> 00:05:32,640
+Even though Redux has kind of
+fallen out of favor on social media,
+
+95
+00:05:32,640 --> 00:05:36,400
+there's still a lot of companies that
+use it. And if you are a current React
+
+96
+00:05:36,400 --> 00:05:39,200
+developer or you're planning
+on becoming one, you
+
+97
+00:05:39,200 --> 00:05:42,240
+are probably going to encounter Redux
+somewhere in your career.
+
+98
+00:05:42,240 --> 00:05:45,360
+And so you are probably going to be
+required to learn at some point,
+
+99
+00:05:45,360 --> 00:05:49,040
+although I would recommend to
+procrastinate it as long as you can.
+
+100
+00:05:49,040 --> 00:05:54,045
+Anyway for those of you that end up using
+Redux, anyway, I wish you the best of luck.
+
+101
+00:05:54,046 --> 00:05:56,870
+Give Redux Toolkit and maybe Redux Query a try.
+
+102
+00:05:56,871 --> 00:05:59,969
+Hopefully you don't get RSI
+(Repetitive strain injury) from this.
+
+103
+00:06:00,169 --> 00:06:03,370
+And remember be very careful with Redux.
+You do not want your codebase
+
+104
+00:06:03,371 --> 00:06:04,800
+looking like this.
+
